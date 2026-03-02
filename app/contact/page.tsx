@@ -31,7 +31,7 @@ export default function Contact() {
   }
   return (
 
-    <main className="w-screen h-screen flex flex-col gap-16 justify-center items-center" >
+    <main className="w-screen h-screen flex flex-col gap-16 justify-center items-center bg-gray-900 " >
       <h1 className="text-6xl">Contato</h1>
       <div>
         <p>Digite seu email para eu entrar em contato!</p>

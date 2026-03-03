@@ -9,21 +9,25 @@ export default function projects() {
             </div>
             
             <div className="flex gap-10 flex-wrap ">
+                <div className="hover:scale-110 transition-transform duration-300">
                 <Card src="/c.png" 
                 title="Lista C" 
                 description="Projeto feito com C"
-                
                 url="https://github.com/viniciusclima12-pixel/Listac" />
+                </div>
+                <div className="hover:scale-110 transition-transform duration-300">
                 <Card src="/java.png" 
                 title="Lista Js" 
                 description="Projeto feito com Java"
                 url="https://github.com/viniciusclima12-pixel/listaJS" />  
+                </div>
+                <div className="hover:scale-110 transition-transform duration-300">
                 <Card 
                 src="/next.svg"
                 title="portfólio"
                 description="Projeto feito com Next.js"
-                url="https://github.com/viniciusclima12-pixel/next.js-forja.tarde"
-                />
+                url="https://github.com/viniciusclima12-pixel/next.js-forja.tarde"/>
+                </div>
             </div>
         </main>
 
